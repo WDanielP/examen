@@ -22,7 +22,7 @@ public class CursoDAOImpl implements CursoDAO{
 		//
 		Session session = sessionFactory.getCurrentSession();
 		
-		return session.createQuery("from curso",Curso.class).getResultList();
+		return session.createQuery("from Curso",Curso.class).getResultList();
 		
 	}
 	

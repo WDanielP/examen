@@ -27,7 +27,7 @@ public class EstudianteDAOImpl implements EstudianteDAO {
 	
 		Session session = sessionFactory.getCurrentSession();
 		
-		return session.createQuery("from estudiante",Estudiante.class).getResultList();
+		return session.createQuery("from Estudiante",Estudiante.class).getResultList();
 		
 	}
 	
